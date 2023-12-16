@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materiales</title>
+    <link rel="shortcut icon" href="./src/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <div id="material">
+        <label for="input">Ingrese m³ a calcular:</label>
+        <input type="text" id="input" placeholder="m3 de superficie">
+        <button onclick="leerCantidad()">OK</button>
+        <section class="container">
+            <span>La cantidad de bolsones de arena es: <p id="resultadoarena"></p></span> 
+            <span>La cantidad de bolsas de cemento es: <p id="resultadocemento"></p></p></span>
+            <span>La cantidad de bolsones de Piedras es: <p id="resultadopiedra"></p></p></span>
+        </section>
+    </div>
+    <div id="ladrillos">
+        <label for="input">Ingrese m² para calcular cantidad de ladrillos:</label>
+        <input type="text" id="input2" placeholder="m2 de pared">
+        <button onclick="leerCantidadLadrillos()">OK</button>
+        <section class="container">
+                <p>Cant. de ladrillos de 12x18x33 es:  <p id="ladrillo12"></p></p>
+        </section>
+    </div>
+        <button type="reset" onclick="reset()">Resetear</button>
+    <script src="./src/index.js"></script>
+</body>
+
+</html>

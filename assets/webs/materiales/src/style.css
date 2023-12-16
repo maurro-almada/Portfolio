@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #183A37;
+    text-align: center;
+    margin: auto;
+    margin-top: 3.5em;
+    font-size: 25px;
+}
+button {
+    background-color: #C44900;
+    color: white;
+    width: 6em;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 18px;
+    font-size: 1rem;
+}
+#resultadoarena, #resultadocemento, #ladrillos, #resultadopiedra{
+    font-size: 30px;
+}
+#ladrillos{
+    margin-top: 4em;
+}
+input{
+    height: 1.8em;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+label{
+    font-size: 2rem ;
+    color: white;
+}
+.container{
+    background-color: #EFD6AC;
+    width: 60vw;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:40px auto;
+
+}
+#ladrillo12, #resultadoarena, #resultadocemento, #resultadopiedra{
+    margin-left: 10px;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+span{
+    margin: 10px;
+}

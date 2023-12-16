@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pico.slim.css">
+    <script src="backend.js"></script>
+    <title>Buscador</title>
+</head>
+<body>
+    <main class="container">
+        <form id="form">
+            <label>
+                IP del Usuario
+                <input required id="input" type="text"
+                placeholder="Ingrese IP deseada">
+                <small>ej: 192.228.17.57 </small>
+            </label>
+            <button type="submit" id="submit">
+                buscar informacion de esta IP
+            </button>
+        </form>
+        <div>
+            <pre id="results"></pre>
+        </div>
+    </main> 
+</body>
+</html>

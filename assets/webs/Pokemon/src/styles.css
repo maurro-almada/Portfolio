@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Concert One', sans-serif;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+#Logo {
+    display: flex;
+    margin: 15px auto;
+}
+
+#seccionMain,
+.divPokemon,
+.divPokemonfind {
+    color: white;
+}
+
+nav {
+    text-align: end;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+    font-size: 1.3rem;
+    font-family: 'Patua One', serif;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.divPokemon img,
+.divPokemonfind img {
+    width: 7rem;
+    margin: auto;
+}
+
+.divPokemon,
+.divPokemonfind {
+    width: 300px;
+    height: 330px;
+    display: inline-flex;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    padding-block: 1rem;
+    text-transform: uppercase;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin: 1rem;
+    cursor: pointer;
+    transition: ease 1s;
+}
+
+.divPokemon:hover,
+#find:hover {
+    background-color: yellow;
+    transition: ease 1s;
+}
+
+h2,
+p,
+.divPokemon p,
+h2,
+.divPokemonfind p,
+h2 {
+    text-align: center;
+    display: block;
+    font-family: 'Patua One', Cambria, Georgia;
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+}
+
+.attack {
+    color: red;
+}
+
+input {
+    border: 2px solid;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+}
+
+#find {
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.divPokemonfind {
+    width: 350px;
+    height: 330px;
+    background-color: #00AFB5;
+}
+
+#find:hover {
+    background-color: gold;
+    width: 370px;
+    height: 350px;
+    transition: ease 1s;
+}
